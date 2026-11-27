@@ -2,11 +2,11 @@
 #include <string>
 
 int main() {
-    // Запрашиваем имя пользователя из стандартного потока ввода
+    // Read user name from standard input.
     std::string name;
     std::cout << "Enter your name: ";
     std::cin >> name;
-    // Приветствие пользователя по имени
+    // Greet the user by name.
     std::cout << "Hello world from @" << name << std::endl;
     return 0;
 }
